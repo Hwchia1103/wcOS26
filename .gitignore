@@ -1,0 +1,10 @@
+# 忽略 Docker 內部的 Linux 原始碼與編譯產生的大型檔案 (約 2GB)
+**/docker/
+**/initramfs/
+# 忽略打包的映像檔與繳交壓縮檔
+*.cpio.gz
+*.zip
+# 忽略編譯中繼檔
+*.o
+*.patch
+submission/
